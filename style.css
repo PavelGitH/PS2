@@ -611,7 +611,7 @@
   }
 
   .media-buttons {
-    flex-direction: column; /* Кнопки друг под другом */
+    flex-direction: row; /* Кнопки друг под другом */
     gap: 15px;              /* Отступы между кнопками */
     align-items: center;    /* Выравнивание по центру */
   }
