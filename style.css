@@ -512,4 +512,132 @@
   .contact-form button:hover {
     background-color: #ccc;
   }
- 
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  /* Общие отступы и шрифты чуть меньше */
+  body, html {
+    font-size: 14px;
+  }
+  
+  /* intro-content и about-content переключаем в колонку */
+  .intro-content,
+  .about-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .intro-left h2 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .intro-right p,
+  .about-text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* achievements-container padding уменьшаем */
+  .achievements-container {
+    padding: 2rem 2rem;
+  }
+
+  .achievement-entry {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .year {
+    flex: none;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Фотогалерея - grid 1 колонка */
+  .photos-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .photos-grid img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* split-section - перестраиваем в колонку */
+  .center-rectangle {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-part, .right-part {
+    width: 100%;
+    height: 200px;
+  }
+
+  .black-box {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  /* media-buttons - кнопки на всю ширину */
+  .media-buttons {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .media-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* contact-section - блоки в колонку и центр */
+  .contact-section {
+    height: auto;
+    justify-content: center;
+    padding: 40px 5%;
+  }
+
+  .contact-box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+  }
+}
+
