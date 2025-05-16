@@ -640,4 +640,32 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 768px) {
+  /* Поднимаем media-section вверх и уменьшаем высоту */
+  .media-section {
+    height: auto; /* вместо фиксированной 40vh — пусть высота подстраивается */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* media-box сделаем чуть компактнее */
+  .media-box {
+    padding: 20px;
+  }
+
+  /* media-buttons — кнопки в один ряд, с прокруткой при необходимости */
+  .media-buttons {
+    flex-direction: row; /* горизонтально */
+    gap: 15px;
+    overflow-x: auto; /* если не помещаются, можно скроллить */
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .media-buttons button {
+    width: auto; /* под размер контента */
+    min-width: 140px; /* чтобы не были слишком узкими */
+    flex-shrink: 0; /* не сжимать */
+  }
+}
 
