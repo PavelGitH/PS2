@@ -600,7 +600,7 @@
 
  /* Поднимаем media-section вверх и уменьшаем высоту */
   .media-section {
-    height: auto; /* вместо фиксированной 40vh — пусть высота подстраивается */
+    height: 40vh;
     padding-top: 20px;
     padding-bottom: 20px;
   }
