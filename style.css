@@ -598,31 +598,27 @@
     padding: 20px;
   }
 
- /* Поднимаем media-section вверх и уменьшаем высоту */
   .media-section {
-    height: 40vh;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: auto;          /* Автоматическая высота по содержимому */
+    padding-top: 10px;     /* Поднимаем чуть выше */
+    padding-bottom: 40px;  /* Отступ снизу, чтобы не налезали на следующую секцию */
   }
 
-  /* media-box сделаем чуть компактнее */
   .media-box {
-    padding: 20px;
+    width: 100%;           /* Полная ширина */
+    height: auto;          /* Авто высота */
+    padding: 20px;         /* Меньше паддинга */
   }
 
-  /* media-buttons — кнопки в один ряд, с прокруткой при необходимости */
   .media-buttons {
-    flex-direction: row; /* горизонтально */
-    gap: 15px;
-    overflow-x: auto; /* если не помещаются, можно скроллить */
-    justify-content: center;
-    padding-bottom: 10px;
+    flex-direction: column; /* Кнопки друг под другом */
+    gap: 15px;              /* Отступы между кнопками */
+    align-items: center;    /* Выравнивание по центру */
   }
 
   .media-buttons button {
-    width: auto; /* под размер контента */
-    min-width: 140px; /* чтобы не были слишком узкими */
-    flex-shrink: 0; /* не сжимать */
+    width: 80%;             /* Сделать кнопки шириной 80% экрана */
+    max-width: 300px;       /* Максимум 300px */
   }
 
   /* contact-section - блоки в колонку и центр */
