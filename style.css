@@ -637,7 +637,6 @@
 }
 
 .media-buttons button {
-  width: 80%;
   padding: 12px 0;
   background-color: #000;
   color: #fff;
@@ -646,6 +645,8 @@
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: 80vw; /* 80% ширины экрана */
+  max-width: 500px; /* Чтобы не становились слишком широкими на больших экранах */
 }
 
 .media-buttons button:hover {
