@@ -507,6 +507,10 @@
     background-color: #ccc;
   }
 
+.mobile-break {
+  display: none;
+}
+
 /* Мобильная адаптация */
 @media (max-width: 768px) {
   /* Общие отступы и шрифты чуть меньше */
@@ -682,6 +686,10 @@
 
   .contact-form button {
     font-size: 1rem;
+  }
+
+      .mobile-break {
+    display: inline;
   }
 }
 
