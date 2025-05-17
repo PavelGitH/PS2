@@ -359,68 +359,62 @@
     color: #000;
   }
 
+.media-section {
+  background-color: #333; /* Серый фон */
+  padding: 60px 5%;
+  display: flex;
+  justify-content: center;
+}
 
- /* Секция */
- .media-section {
-    background-color: #333;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /*  прямоугольник */
-  .media-box {
-    background-color: #000;
-    width: 90%;
-    height: 70%;
-    padding: 40px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  /* Заголовок */
-  .media-title {
-    color: white;
-    font-size: 2rem;
-    margin: 0;
-    font-family: 'Syne', sans-serif; /* Шрифт Syne для заголовка */
+.media-box {
+  background-color: #000; /* Черный прямоугольник */
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
 
-  }
-  
-  /* Подзаголовок */
-  .media-subtitle {
-    color: white;
-    font-size: 1rem;
-    margin: 10px 0 20px;
-    text-align: center;
-    font-family: Roboto, sans-serif;
-  }
-  
-  /* Кнопки */
-  .media-buttons {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .media-buttons button {
-    background-color: #000;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 300px;
-  }
-  
-  .media-buttons button:hover {
-    background-color: #fff;
-    color: #000;
-  }
+.media-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Syne', sans-serif;
+}
+
+.media-subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.media-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.media-buttons button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 12px 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 80%; /* 80% ширины */
+  align-self: center; /* Центровка кнопок */
+}
+
+.media-buttons button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
   
 
   /* Секция */
