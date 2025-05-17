@@ -50,7 +50,7 @@
     background-image: url('images/134112064_4150129008334773_6449770483946255046_n.jpg'); /* <-- сюда вставляешь своё фото */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
