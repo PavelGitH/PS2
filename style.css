@@ -559,12 +559,12 @@
   .year {
     flex: none;
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
 
   .description {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
 
   /* Фотогалерея - grid 1 колонка */
@@ -616,7 +616,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
     
 }
 
