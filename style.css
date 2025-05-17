@@ -596,7 +596,7 @@
   .black-box {
     position: static;
     width: 100%;
-    height: 1000px;
+    height: 60vh;
     margin-top: 20px;
     padding: 20px;
   }
@@ -614,7 +614,6 @@
   background-color: #000;
   width: 100%;
   max-width: 600px;
-  padding-top: 0px 20px;
   box-sizing: border-box;
   text-align: center;
   display: flex;
