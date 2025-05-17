@@ -601,13 +601,13 @@
     padding: 20px;
   }
 
-    .media-section {
+  .media-section {
   background-color: #333;
   padding: 40px 5%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .media-box {
